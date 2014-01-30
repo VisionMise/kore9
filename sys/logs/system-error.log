@@ -1,0 +1,3123 @@
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:14:53 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: errorType</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">50</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:14:53 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+    [parts] => Array
+        (
+            [Date/Time] => 2014-01-30 03:14:53 (UTC)
+            [Error Number] => 1
+            [Error Type] => Error
+            [Message] => Cannot connect to database: 
+            [File] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+            [Line] => 80
+            [Variables] => Array
+                (
+                    [type] => mysql
+                    [host] => localhost
+                    [port] => 3306
+                    [user] => root
+                    [password] => 
+                    [schema] => test
+                )
+
+            [Remote Address] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:14:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:15:34 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: errorType</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">50</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:15:34 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+    [parts] => Array
+        (
+            [Date/Time] => 2014-01-30 03:15:34 (UTC)
+            [Error Number] => 1
+            [Error Type] => Error
+            [Message] => Cannot connect to database: 
+            [File] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+            [Line] => 80
+            [Variables] => Array
+                (
+                    [type] => mysql
+                    [host] => localhost
+                    [port] => 3306
+                    [user] => root
+                    [password] => 
+                    [schema] => test
+                )
+
+            [Remote Address] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:15:51 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:15:51 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:16:09 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:16:17 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:16:23 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:16:31 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:16:31 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">33</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">dbConnection::connect_mysql(): Couldn't fetch mysqli</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">40</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 
+            [client_info] => 
+            [client_version] => 50011
+            [connect_errno] => 1045
+            [connect_error] => Access denied for user 'root'@'localhost' (using password: NO)
+            [errno] => 
+            [error] => 
+            [error_list] => 
+            [field_count] => 
+            [host_info] => 
+            [info] => 
+            [insert_id] => 
+            [server_info] => 
+            [server_version] => 
+            [stat] => 
+            [sqlstate] => 
+            [protocol_version] => 
+            [thread_id] => 
+            [warning_count] => 
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 1
+    [errmsg] => Cannot connect to database: 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => 
+            [schema] => test
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 03:17:50 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => system
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-1">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">1</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot connect to database: </dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [type] => mysql
+    [host] => localhost
+    [port] => 3306
+    [user] => root
+    [password] => 
+    [schema] => test
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:17:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:24:52 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:24:52 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:24:52 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:24:52 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/boot/shell.php:15)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">A session had already been started - ignoring session_start()</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:27:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:32:05 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">A session had already been started - ignoring session_start()</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">9</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:32:05 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:32:05 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:32:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">A session had already been started - ignoring session_start()</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/400/sessionHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">9</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [sessionType] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:32:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:32:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:34:12 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:34:12 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:36:56 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:36:56 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:37:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Missing argument 1 for ui_api::__construct(), called in /server/development/projects/kore9/sys/exec/500/processRequest.php on line 137 and defined</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">12</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 03:37:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: runtimeFolder</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/lib/201/ui_api.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">13</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 04:00:00 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 256
+    [errmsg] => Invalid Input
+this='that' one='two' 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [this] => that
+            [one] => two
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 04:00:00 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: REMOTE_ADDR</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 256
+    [errmsg] => Invalid Input
+this='that' one='two' 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [this] => that
+            [one] => two
+        )
+
+    [printMsgs] => 1
+    [dt] => 2014-01-30 04:00:00 (UTC)
+    [errortype] => Array
+        (
+            [1] => Error
+            [2] => Warning
+            [4] => Parsing Error
+            [8] => Notice
+            [16] => Core Error
+            [32] => Core Warning
+            [64] => Compile Error
+            [128] => Compile Warning
+            [256] => User Error
+            [512] => User Warning
+            [1024] => User Notice
+            [2048] => Runtime Notice
+            [4096] => Catchable Fatal Error
+        )
+
+    [user_errors] => Array
+        (
+            [0] => 256
+            [1] => 512
+            [2] => 1024
+        )
+
+    [type] => user
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string"></dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 04:00:43 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">18</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [errno] => 256
+    [errmsg] => Invalid Input
+this='that' one='two' 
+    [filename] => /server/development/projects/kore9/sys/exec/100/errorHandler.php
+    [linenum] => 80
+    [vars] => Array
+        (
+            [this] => that
+            [one] => two
+        )
+
+    [printMsgs] => 1
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-29 23:08:26 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Malformed API Class Object cannot except shell type request.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-29 23:09:39 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Malformed API Class Object cannot except shell type request.</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="err err-16">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 00:18:47 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">16</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Core Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">UI Missing</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [UI Handler] => ./ui/guest/.phtml
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 00:19:17 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Invalid argument supplied for foreach()</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">77</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => system
+            [config:protected] => Array
+                (
+                )
+
+        )
+
+    [config] => 
+    [types] => 
+    [buffer] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 00:19:21 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Invalid argument supplied for foreach()</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">77</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => system
+            [config:protected] => Array
+                (
+                )
+
+        )
+
+    [config] => 
+    [types] => 
+    [buffer] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
