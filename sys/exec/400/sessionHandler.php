@@ -6,7 +6,8 @@
 		global $sessionType;
 
 		if (session_status() !== PHP_SESSION_ACTIVE) {
-			session_set_cookie_params(3600 * 4, '/', '.kuhlonline.com', true, true);
+			$days 	= ((3600 * 24) * 4);
+			session_set_cookie_params($days, '/', '.kuhlonline.com', true, true);
 			session_start();
 		}
 

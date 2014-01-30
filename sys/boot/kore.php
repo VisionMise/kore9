@@ -70,7 +70,7 @@
 		global $request;
 		global $printMsgs;
 
-		$printMsgs		= true;
+		$printMsgs		= false;
 		$request 		= $stdInput;
 		$boot 			= getcwd();
 		$bootstrap 		= include("$boot/init.php");

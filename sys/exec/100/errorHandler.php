@@ -5,7 +5,7 @@
 
 
 	function iniPHP_reporting() {
-		$settings		= new settings('system');
+		$settings		= new settings('settings');
     	$options 		= $settings->logger;
 
     	if ($options['phpReporting'] == false) error_reporting(0);
@@ -52,7 +52,7 @@
 
 
 	    /** Output **/
-    	$strBuffer		= "<dl class=\"err err-$errno\">\n";
+    	$strBuffer		= "<dl class=\"alert alert-box alert-danger err err-$errno\">\n";
     	foreach ($parts as $label => $value) {
     		if (is_array($value) or is_object($value)) {
     			$value 	= print_r($value, true);
@@ -68,7 +68,7 @@
 
 
     	/** Options **/
-    	$settings		= new settings('system');
+    	$settings		= new settings('settings');
     	$options 		= $settings->logger;
 
     	/** Logger **/

@@ -45,9 +45,19 @@
 
 	function printMsg($msg, $exit = false) {
 		global $printMsgs;
+		global $mode;
 
 		if ($printMsgs and $msg) {
-			$str 	= print_r($msg, true);
+			if ($mode == 'shell') {
+				$str 	= print_r($msg, true);
+			} else {
+				$str 	= 
+					"<div class=\"alert alert-box alert-warning\">\n".
+					"\t<span>".print_r(nl2br($msg), true)."</span>\n".
+					"</div>"
+				;
+			}
+
 			print "$str\n";
 		}
 
