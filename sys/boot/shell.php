@@ -31,7 +31,6 @@
 	$ready 		= boot($mode, $request);
 
 
-
 	function initRequest(array &$request = array()) {
 		
 		$requestType 	= "shell";

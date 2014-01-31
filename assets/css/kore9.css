@@ -16,8 +16,8 @@
 
 div, p, a, h1, h2, h3, h4, h5, h6, span, button {
     transition: 
-        width 0.5s, 
-        height 0.5s,
+        width 1.0s, 
+        height 1.0s,
         margin 0.5s,
         padding 0.5s,
         left 0.5s,
@@ -25,7 +25,8 @@ div, p, a, h1, h2, h3, h4, h5, h6, span, button {
         right 0.5s,
         bottom 0.5s,
         color 0.5s,
-        background-color 0.5s
+        background-color 0.5s,
+        box-shadow 0.5s
     ;
 }
 
@@ -42,4 +43,31 @@ div, p, a, h1, h2, h3, h4, h5, h6, span, button {
     cursor: pointer;
     background-color: #414141;
     color: #fff;
+}
+
+.panel-default {
+    border: solid 0 #313131;
+    border-radius: 0;
+}
+
+.panel-default > .panel-heading {
+    background: #414141;
+    border: solid 0 #313131;
+    border-radius: 0;
+    color: #ccc;
+}
+
+.panel-body {
+    background: #fff;
+    border: solid 0 #313131;
+    border-radius: 0;
+    color: #414141;
+}
+
+.panel {
+    box-shadow: rgba(0,0,0,0.5) 0px 4px 8px -2px;
+}
+
+.panel-heading {
+    box-shadow: inherit;
 }

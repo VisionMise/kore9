@@ -5352,3 +5352,1735 @@ this='that' one='two'
 	<dt class="err-label">Remote Address</dt>
 		<dd class="err-value err-string">10.1.1.1</dd>
 </dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 00:50:34 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined offset: 0</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">11</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => get
+        )
+
+    [this] => authority Object
+        (
+            [json:protected] => 
+            [errors:protected] => Array
+                (
+                )
+
+            [result:protected] => 
+            [exitError:protected] => 
+            [config:protected] => settings Object
+                (
+                    [name:protected] => ui_api
+                    [config:protected] => Array
+                        (
+                            [permissions] => Array
+                                (
+                                    [get] => 1
+                                    [post] => 1
+                                    [delete] => 1
+                                    [signin] => 1
+                                    [register] => 1
+                                )
+
+                            [settings] => Array
+                                (
+                                )
+
+                            [tables] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [runtimeFolder:protected] => /server/development/projects/kore9/sys/api/authority
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:00:20 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:00:20 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Array to string conversion</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/900/processResult.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">50</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [result] => Array
+        (
+            [reload] => 
+        )
+
+    [mode] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:01:48 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:01:55 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:02:50 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:03:39 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:03:50 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+            [username] => this
+            [password] => that
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:04:03 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined index: HTTP_REFERER</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/authority/authority.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+            [username] => this
+            [password] => that
+        )
+
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:04:37 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot modify header information - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:24)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/900/processResult.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [result] => Array
+        (
+            [reload] => ./
+            [0] => Array
+                (
+                    [api] => authority
+                    [call] => post
+                    [username] => this
+                    [password] => that
+                )
+
+        )
+
+    [mode] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:04:43 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot modify header information - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:24)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/900/processResult.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">46</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [result] => Array
+        (
+            [reload] => ./
+            [0] => Array
+                (
+                    [api] => authority
+                    [call] => post
+                    [username] => this
+                    [password] => that
+                )
+
+        )
+
+    [mode] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:07:12 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot modify header information - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:24)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/900/processResult.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">47</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [result] => Array
+        (
+            [reload] => ./
+            [0] => Array
+                (
+                    [api] => authority
+                    [call] => post
+                    [username] => this
+                    [password] => that
+                )
+
+        )
+
+    [mode] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:07:17 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Cannot modify header information - headers already sent by (output started at /server/development/projects/kore9/sys/boot/shell.php:24)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/900/processResult.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">47</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [result] => Array
+        (
+            [reload] => ./
+            [0] => Array
+                (
+                    [api] => authority
+                    [call] => post
+                    [username] => this
+                    [password] => that
+                )
+
+        )
+
+    [mode] => shell
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">Hosted</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:16:00 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:18:01 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:18:07 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:22:02 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:22:25 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:23:58 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:24:25 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 01:24:29 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-30 20:55:01 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Access is denied</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">80</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [API Class] => ui
+    [API Method] => delete
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => 
+    [depth] => ./../
+    [d] => 1
+    [type] => css
+    [files] => Array
+        (
+            [09] => normalize.css
+            [10] => bootstrap.min.css
+            [11] => bootstrap-theme.min.css
+            [99] => kore9.css
+        )
+
+    [index] => 09
+    [source] => normalize.css
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => css
+    [files] => Array
+        (
+            [09] => normalize.css
+            [10] => bootstrap.min.css
+            [11] => bootstrap-theme.min.css
+            [99] => kore9.css
+        )
+
+    [index] => 10
+    [source] => bootstrap.min.css
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => css
+    [files] => Array
+        (
+            [09] => normalize.css
+            [10] => bootstrap.min.css
+            [11] => bootstrap-theme.min.css
+            [99] => kore9.css
+        )
+
+    [index] => 11
+    [source] => bootstrap-theme.min.css
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => css
+    [files] => Array
+        (
+            [09] => normalize.css
+            [10] => bootstrap.min.css
+            [11] => bootstrap-theme.min.css
+            [99] => kore9.css
+        )
+
+    [index] => 99
+    [source] => kore9.css
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="/css/kore9.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => js
+    [files] => Array
+        (
+            [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+            [20] => bootstrap.min.js
+            [90] => rame.js
+            [91] => kore9.ui.js
+            [92] => kore9.init.js
+        )
+
+    [index] => 20
+    [source] => bootstrap.min.js
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="/css/kore9.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => js
+    [files] => Array
+        (
+            [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+            [20] => bootstrap.min.js
+            [90] => rame.js
+            [91] => kore9.ui.js
+            [92] => kore9.init.js
+        )
+
+    [index] => 90
+    [source] => rame.js
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="/css/kore9.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/rame.js"></script>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => js
+    [files] => Array
+        (
+            [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+            [20] => bootstrap.min.js
+            [90] => rame.js
+            [91] => kore9.ui.js
+            [92] => kore9.init.js
+        )
+
+    [index] => 91
+    [source] => kore9.ui.js
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="alert alert-box alert-danger err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-31 00:05:06 (EST)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: depthassets</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">89</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [param] => Array
+        (
+            [0] => credits
+        )
+
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => js
+                )
+
+            [css] => Array
+                (
+                    [09] => normalize.css
+                    [10] => bootstrap.min.css
+                    [11] => bootstrap-theme.min.css
+                    [99] => kore9.css
+                )
+
+            [js] => Array
+                (
+                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                    [20] => bootstrap.min.js
+                    [90] => rame.js
+                    [91] => kore9.ui.js
+                    [92] => kore9.init.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => js
+        )
+
+    [buffer] => <link rel="stylesheet" href="/css/normalize.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="/css/kore9.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/rame.js"></script>
+<script src="/js/kore9.ui.js"></script>
+
+    [depth] => ./../
+    [d] => 1
+    [type] => js
+    [files] => Array
+        (
+            [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+            [20] => bootstrap.min.js
+            [90] => rame.js
+            [91] => kore9.ui.js
+            [92] => kore9.init.js
+        )
+
+    [index] => 92
+    [source] => kore9.init.js
+    [str] => 
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>

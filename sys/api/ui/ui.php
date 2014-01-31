@@ -29,7 +29,7 @@
 
 			$buffer 		= null;
 			$included		= $this->bufferRequest($realPath, $buffer);
-			$this->buildHtml($buffer);
+			$this->buildHtml($buffer, $param);
 
 			if (!$included) {
 				// Runtime Error
@@ -55,9 +55,9 @@
 			return $included;
 		}
 
-		private function buildHtml(&$body) {
+		private function buildHtml(&$body, $param) {
 		    $version    = getVersion();
-			$headers 	= str_replace("\n", "\n\t\t", $this->htmlHeaders());
+			$headers 	= str_replace("\n", "\n\t\t", $this->htmlHeaders($param));
 			$body 	    = str_replace("\n", "\n\t\t", $body);
 			$buffer     = $this->getPage(array('frame'), dirname(__FILE__), true);
 			$body       = str_replace(
@@ -68,18 +68,23 @@
 			
 		}
 
-		private function htmlHeaders() {
+		private function htmlHeaders($param) {
             $settings		= new settings('settings');
 			$config 		= $settings->assets;
 			$types          = $config['types'];
 			$buffer         = null;
+			$depth 			= '';
+
+			for ($d = 1; $d < count($param); $d++) {
+				$depth .= '../';
+			}
 			
 			foreach ($types as $type) {
 			    
 			    $files = $config[$type];
 			    foreach ($files as $index => $source) {
-			        $str    = null;
-			        if (strpos($source, '//') === false) $source = "assets/$type/$source";
+			        $str    	= null;
+			        if (strpos($source, '//') === false) $source = $depth."assets/$type/$source";
 			        
 			        switch ($type) {
 			             case 'css':

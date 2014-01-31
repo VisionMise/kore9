@@ -36,16 +36,21 @@
 	}
 
 	function processText($result) {
+		global $mode;
+
 		/** 
 		 * Processing will continue
 		 * result is ignored 
 		 */
-		if (isset($result['reload'])) {
-		    header("Location: {$result['reload']}");
-		    exit();
+		if (isset($result['reload']) and ($mode != 'shell')) {
+			try {
+		    	header("Location: {$result['reload']}");
+			} catch (Exception $e) {}
+	    	exit();
 		}
 
-		print $result;
+		print_r($result);
+		print ($mode == 'shell') ? "\n" : null;
 		exit();
 	}
 

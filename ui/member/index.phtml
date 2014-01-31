@@ -1,39 +1,37 @@
 <div class="space"></div>
 <div class="container">
-    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="title lg text-muted">
-                    Kore 
-                    <small>version 0.1.<?=getVersion();?></small>
+                    Kore9
+                    <small class="pull-right">
+                        <a href="javascript:void(0);" class="a_signout" title="Sign Out">
+                            <span class="lg glyphicon glyphicon-remove"></span>
+                        </a>
+                    </small>
                 </h3>
             </div>
             <div class="panel-body">
                 <div id="content">
-                    <p class="md">
-                        Welcome. 
-                    </p>
-                    <p>
-                        Since you have made it this far, I must
-                        confess there is nothing here.
-                    </p>
-                    <p>
-                        Thanks for playing.
-                    </p>
-                    <div>
-                        <button type="button" title="Sign Out" class="btn-inverse btn" id="btn_signout">Sign Out</button>
-                    </div>
+                    <div id="about">
+                        <h2>Welcome</h2>
+                        <hr/>
+                        <p>
+                            Since you have made it this far, I must
+                            confess there is nothing here.
+                        </p>
+                        <p>
+                            Thanks for playing.
+                        </p>            
+                    </div>        
                 </div>
             </div>
         </div>
+        <a href="javascript:void(0);" class="a_credits" title="What?">
+            <small class="pull-right text-muted">
+                Kore9 version 0.<?=getVersion();?>
+            </small>
+        </a>
     </div>
 </div>
-<script>
-    var exec = new rame();
-    
-    document.onready = function() {
-        $("#btn_signout").click(function() {
-            exec.delete("api/authority/");
-        });
-    };
-</script>

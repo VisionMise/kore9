@@ -1,40 +1,42 @@
-<script>
-    var exec = new rame();
-    
-    document.onready = function() {
-        $("#a_signin").click(function() {
-            exec.api("api/authority/signin", $("#content"));
-        });
-        
-        $("#a_register").click(function() {
-            exec.api("api/authority/register", $("#content"));
-        });
-        
-    };
-    
-</script>
 <div class="space"></div>
 <div class="container">
-    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="title lg text-muted">
-                    Kore9 
-                    <small>version 0.<?=getVersion();?></small>
+                    Kore9
+                    <small class="pull-right">
+                        <a href="javascript:void(0);" class="a_signin" title="I am not a Guest">
+                            <span class="lg glyphicon glyphicon-lock"></span>
+                        </a>
+                    </small>
                 </h3>
             </div>
             <div class="panel-body">
-                <div id="content">
-                    <div class="pull-right">
-                        <nav class="lg">
-                            <a title="Register" id="a_register" href="javascript:void(0);"><span class="glyphicon glyphicon-registration-mark"></span></a>
-                            &nbsp;
-                            <a title="Sign In" id="a_signin" href="javascript:void(0)"><span class="glyphicon glyphicon-log-in"></span></a>
-                            &nbsp;
-                        </nav>
+                <div id="signin">
+                    <div id="register">
+                        <div id="about">
+                            <h2>Welcome Guest</h2>
+                            <hr/>
+                            <div>
+                                <small>
+                                    <a title="Being a Guest never got me anywhere..."class="a_register pull-left" href="javascript:void(0);">
+                                        I don't want to be a guest anymore
+                                    </a>
+                                    <a title="I have problems making descisions about these things..." class="a_about pull-right" href="javascript:void(0);">
+                                        I need to know what this is all about
+                                    </a>
+                                </small>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <a href="javascript:void(0);" class="a_credits" title="What?">
+            <small class="pull-right text-muted">
+                Kore9 version 0.<?=getVersion();?>
+            </small>
+        </a>
     </div>
 </div>

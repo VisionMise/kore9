@@ -8,14 +8,14 @@
 
 		public function get(	array $param = array()	) {
 		    if ($param) {
-		        $method         = $param[0];
+		        $method         = (isset($param[0])) ? $param[0] : null;
 		        
 		        if (method_exists($this, $method)) {
 		            unset($param[0]);
 		            $result     = $this->$method(array_values($param));
 		            $this->json = true;
 		        } else {
-		            $result     = false;
+		            $result         = (isset($_SESSION['type'])) ? $_SESSION['type'] : false;
 		        }
 		    } else {
 		        $result         = (isset($_SESSION['type'])) ? $_SESSION['type'] : false;
@@ -26,7 +26,7 @@
 
 		public function post(	array $param = array()	) {
 		    $_SESSION['type'] = 'member';
-			return array('reload'=>$_SERVER['HTTP_REFERER']);
+			return array('reload'=>(isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : './'), $param);
 		}
 
 		public function put(	array $param = array()	) {
