@@ -25,8 +25,41 @@
 		}
 
 		public function post(	array $param = array()	) {
-		    $_SESSION['type'] = 'member';
-			return array('reload'=>(isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : './'), $param);
+		    $email		= (isset($param['email'])) ? $param['email'] : null;
+		    $password	= (isset($param['password'])) ? $param['password'] : null;
+		    $token 		= $this->tokenHash($email, $password);
+		    
+		    $table 		= new table();
+		    $data 		= $table->query("SELECT * FROM accounts WHERE token = '$token';");
+
+		    
+		    if (count($data) == 1) {
+		    	$user		= $data[0];
+		    	$gid 		= $user['group'];
+				$grp 		= $table->query("SELECT * FROM groups WHERE id = $gid;");
+
+				if (isset($grp[0]) and $grp[0]) {
+					$grp 				= $grp[0];
+					$user['group'] 		= $grp['name'];
+					$user['group_id']	= $grp['id'];
+				}
+
+		    	$this->createAuthenticatedSession($user);
+		    	$_SESSION['type'] 		= 'member';
+		    	$_SESSION[$email]		= $user;
+		    } else {
+		    	$_SESSION['type'] 		= 'guest';
+		    	$_SESSION['guest']		= array();
+		    	$_SESSION['failed']		= true;
+		    }
+
+	    	return array(
+	    		'reload'	=> (isset($_SERVER['HTTP_REFERER']) 
+	    			? $_SERVER['HTTP_REFERER']
+	    			: "./"
+	    		),
+	    		$token
+    		);	
 		}
 
 		public function put(	array $param = array()	) {
@@ -34,7 +67,12 @@
 		}
 
 		public function delete(	array $param = array()	) {
+			global $sessionId;
+			if (isset($_SESSION[$sessionId])) unset($_SESSION[$sessionId]);
+			session_unset();
+
 			$_SESSION['type']   = 'guest';
+			
 			return array('reload'=>$_SERVER['HTTP_REFERER']);
 		}
 		
@@ -44,6 +82,39 @@
 		
 		public function register() {
 		    return $this->getPage(array('register'), dirname(__FILE__));
+		}
+
+		private function createAuthenticatedSession(array $user) {
+	    	$table 		= new table();
+	    	$dt 		= date("Y-m-d H:i:s");
+	    	$logins		= (isset($user['logins'])) ?  ((int) $user['logins']) + 1 : 1;
+	    	$token 		= $user['token'];
+
+		    $table->query("UPDATE accounts SET last_login = '$dt', logins = $logins WHERE token = '$token';", true);
+
+	    	//print_r(array($_SESSION, $user, $table));
+	    	//exit();
+		}
+
+		private function tokenHash($email, $password) {
+
+			$parts	= array(
+				0	=> md5($email),
+				1	=> sha1($password),
+				2	=> substr($password, 2),
+				3 	=> substr($email, 2),
+				4	=> strlen($email),
+				5	=> strlen($password)
+			);
+
+			$strHash	= '_k9_';
+
+			foreach ($parts as $partIndex => $part) {
+				$strHash .= "<$partIndex>:$part;";
+			}
+
+			$token 		= md5(base64_encode($strHash));
+			return $token;
 		}
 
 	}

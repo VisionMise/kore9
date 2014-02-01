@@ -1,0 +1,39 @@
+<?php
+
+	class table {
+
+		protected $tableName;
+		protected $engine;
+		protected $sqlLog		= array();
+
+		function __construct($tableName = null) {
+			global $databaseConnection;
+			$this->engine 		= $databaseConnection->connection();
+			$this->tableName 	= $tableName;
+		}
+
+		public function query($sql, $bypassResults = false) {
+			$result			= $this->engine->query($sql);
+			$this->sqlLog[]	= $sql;
+			$recordSet		= array();
+
+			if ((!$result and !$bypassResults) or $this->engine->errno) {
+				$err 		= $this->engine->error;
+				throwError("(Bad Query) $err", 8, array('sql'=>$sql));
+				return array();
+			}
+
+			if (!$bypassResults) {
+				while ($row = $result->fetch_assoc()) {
+					$recordSet[]	= $row;
+				}
+
+				mysqli_free_result($result);
+			}
+
+			return $recordSet;
+		}
+
+	}
+
+?>

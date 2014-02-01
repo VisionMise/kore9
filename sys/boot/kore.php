@@ -5,7 +5,8 @@
 	$request 	= array();
 	$mode		= initRequest($request);
 	$ready 		= boot($mode, $request);
-	$version    = getVersion();
+	$release	= false;
+	$version    = getVersion($release);
 
 	function initRequest(array &$request = array()) {
 		$requestURL		= null;
@@ -50,7 +51,7 @@
 		return $requestType;
 	}
 	
-	function getVersion() {
+	function getVersion($release = 0) {
 	    $value  = null;
 	    $lines  = explode("\n", `svn info`);
 	    
@@ -63,7 +64,7 @@
 	        if ($value) break;
 	    }
 	    
-	    return $value;
+	    return ((int) $release) . ".$value";
 	}
 
 	function boot($mode, $stdInput = array()) {

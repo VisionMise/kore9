@@ -52,20 +52,22 @@
 
 
 	    /** Output **/
-    	$strBuffer		= "<dl class=\"alert alert-box alert-danger err err-$errno\">\n";
+    	//$strBuffer		= "<dl class=\"alert alert-box alert-danger err err-$errno\">\n";
+    	$strBuffer 			= null;
     	foreach ($parts as $label => $value) {
     		if (is_array($value) or is_object($value)) {
     			$value 	= print_r($value, true);
-    			$class  = "err-value err-array";
+    			//$class  = "err-value err-array";
     		} else {
-    			$class  = "err-value err-string";
+    			//$class  = "err-value err-string";
     		}
 
-    		$strBuffer .= "\t<dt class=\"err-label\">$label</dt>\n";
-    		$strBuffer .= "\t\t<dd class=\"$class\">$value</dd>\n";
+    		//$strBuffer .= "\t<dt class=\"err-label\">$label</dt>\n";
+    		//$strBuffer .= "\t\t<dd class=\"$class\">$value</dd>\n";
+    		$strBuffer .= "$label: $value\n";
     	}
-    	$strBuffer 	   .= "</dl>\n";
-
+    	//$strBuffer 	   .= "</dl>\n";
+		$strBuffer		.= "\n";
 
     	/** Options **/
     	$settings		= new settings('settings');

@@ -136,8 +136,6 @@
 
 	}
 
-
-
 	/**
 	 * Attempt to instantiate the API class object
 	 */

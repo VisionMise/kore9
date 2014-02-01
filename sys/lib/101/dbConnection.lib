@@ -14,6 +14,11 @@
 			$this->connect();
 		}
 
+		public function connection(&$connection = null) {
+			$connection = $this->connection;
+			return $this->connection;
+		}
+
 		private function connect() {
 			global $config;
 
