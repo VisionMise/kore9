@@ -1,3 +1,4 @@
+<?php global $userAccount; ?>
 <div class="space"></div>
 <div class="container">
     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
@@ -15,22 +16,53 @@
             <div class="panel-body">
                 <div id="content">
                     <div id="about">
-                        <h2>Welcome</h2>
+                        <h2>
+                            Welcome <?=trim($userAccount['username']);?>
+
+                            <span class="pull-right">
+                                <div>
+                                    <div style="height:20px;"></div>
+                                    <small class="sm r text-muted pull-right">
+                                        <?=$userAccount['email'];?>
+                                        <br/>
+                                        <span class="glyphicon glyphicon-lock"></span>
+                                        <?=trim($userAccount['token']);?>
+                                    </small>
+                                </div>
+                            </span>
+                            
+                            <small class="sm text-muted pull-left">
+                                Member since <?=date('M jS Y', strtotime($userAccount['created'])); ?>
+                                -
+                                <?=$userAccount['group'];?> Group
+                            </small>
+                        </h2>
+                            
                         <hr/>
                         <p>
-                            Since you have made it this far, I must
-                            confess there is nothing here.
-                        </p>
-                        <p>
-                            Thanks for playing.
+                            <span class="glyphicon glyphicon-cog"></span>
+                            <a href="javascript:void(0);">
+                                Control
+                            </a>
+                            &nbsp;&nbsp;&nbsp;
+                            <span class="glyphicon glyphicon-tasks"></span>
+                            <a href="javascript:void(0);">
+                                Services
+                            </a>
                         </p>            
                     </div>        
                 </div>
             </div>
         </div>
+        <a href="javascript:void(0);" class="a_terms" title="You are subject to these">
+            <small class="pull-right text-muted">
+                Terms
+            </small>
+        </a>
+        <small class="pull-right text-muted">&nbsp;&nbsp;|&nbsp;&nbsp;</small>
         <a href="javascript:void(0);" class="a_credits" title="What?">
             <small class="pull-right text-muted">
-                Kore9 version 0.<?=getVersion();?>
+                Kore9 version <?=getVersion();?>
             </small>
         </a>
     </div>

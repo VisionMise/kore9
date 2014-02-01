@@ -10,12 +10,38 @@
     font-size:18pt;
 }
 
+.sm {
+    font-size:10pt;
+}
+
+.xs {
+    font-size:8pt;
+}
+
 .space {
     height:100px;
 }
 
+.r {text-align:right;}
+.c {text-align:center;}
+.l {text-align:left;}
+
 div, p, a, h1, h2, h3, h4, h5, h6, span, button {
     transition: 
+        width 1.0s, 
+        height 1.0s,
+        margin 0.5s,
+        padding 0.5s,
+        left 0.5s,
+        top 0.5s,
+        right 0.5s,
+        bottom 0.5s,
+        color 0.5s,
+        background-color 0.5s,
+        box-shadow 0.5s
+    ;
+
+    -webkit-transition: 
         width 1.0s, 
         height 1.0s,
         margin 0.5s,
@@ -70,4 +96,12 @@ div, p, a, h1, h2, h3, h4, h5, h6, span, button {
 
 .panel-heading {
     box-shadow: inherit;
+}
+
+pre {
+    padding :5px;
+    margin: 2px;
+    border: solid 0px;
+    border-radius: 0px;
+    background-color: transparent;
 }
