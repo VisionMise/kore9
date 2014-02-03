@@ -19284,3 +19284,237 @@ Line: 82
 Variables: 1
 Remote Address: 10.1.1.1
 
+Date/Time: 2014-02-02 01:31:56 (EST)
+Error Number: 4096
+Error Type: Catchable Fatal Error
+Message: Argument 3 passed to throwError() must be of the type array, boolean given, called in /server/development/projects/kore9/sys/exec/101/installer.php on line 8 and defined
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 81
+Variables: Array
+(
+    [errorMessage] => Could not process installation or validate files
+    [errorCode] => 2048
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:31:56 (EST)
+Error Number: 2048
+Error Type: Runtime Notice
+Message: Could not process installation or validate files
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 82
+Variables: 1
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:18 (EST)
+Error Number: 2
+Error Type: Warning
+Message: include(/server/development/projects/kore9/data/base-install/db_connection.phtml): failed to open stream: No such file or directory
+File: /server/development/projects/kore9/sys/exec/101/installer.php
+Line: 17
+Variables: Array
+(
+    [stage] => db_connection
+    [ready] => 
+    [dataFolder] => /server/development/projects/kore9/data
+    [path] => /server/development/projects/kore9/data/base-install/db_connection.phtml
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:18 (EST)
+Error Number: 2
+Error Type: Warning
+Message: include(): Failed opening '/server/development/projects/kore9/data/base-install/db_connection.phtml' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File: /server/development/projects/kore9/sys/exec/101/installer.php
+Line: 17
+Variables: Array
+(
+    [stage] => db_connection
+    [ready] => 
+    [dataFolder] => /server/development/projects/kore9/data
+    [path] => /server/development/projects/kore9/data/base-install/db_connection.phtml
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:18 (EST)
+Error Number: 4096
+Error Type: Catchable Fatal Error
+Message: Argument 3 passed to throwError() must be of the type array, boolean given, called in /server/development/projects/kore9/sys/exec/101/installer.php on line 9 and defined
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 81
+Variables: Array
+(
+    [errorMessage] => Could not process installation or validate files
+    [errorCode] => 2048
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:18 (EST)
+Error Number: 2048
+Error Type: Runtime Notice
+Message: Could not process installation or validate files
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 82
+Variables: 1
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:38 (EST)
+Error Number: 2
+Error Type: Warning
+Message: include(/server/development/projects/kore9/data/base-install/db_connection.phtml): failed to open stream: No such file or directory
+File: /server/development/projects/kore9/sys/exec/101/installer.php
+Line: 20
+Variables: Array
+(
+    [stage] => db_connection
+    [ready] => 
+    [dataFolder] => /server/development/projects/kore9/data
+    [path] => /server/development/projects/kore9/data/base-install/db_connection.phtml
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:38 (EST)
+Error Number: 2
+Error Type: Warning
+Message: include(): Failed opening '/server/development/projects/kore9/data/base-install/db_connection.phtml' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File: /server/development/projects/kore9/sys/exec/101/installer.php
+Line: 20
+Variables: Array
+(
+    [stage] => db_connection
+    [ready] => 
+    [dataFolder] => /server/development/projects/kore9/data
+    [path] => /server/development/projects/kore9/data/base-install/db_connection.phtml
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:38 (EST)
+Error Number: 4096
+Error Type: Catchable Fatal Error
+Message: Argument 3 passed to throwError() must be of the type array, boolean given, called in /server/development/projects/kore9/sys/exec/101/installer.php on line 9 and defined
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 81
+Variables: Array
+(
+    [errorMessage] => Could not process installation or validate files
+    [errorCode] => 2048
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:38 (EST)
+Error Number: 2048
+Error Type: Runtime Notice
+Message: Could not process installation or validate files
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 82
+Variables: 1
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:56 (EST)
+Error Number: 2
+Error Type: Warning
+Message: include(/server/development/projects/kore9/data/base-install/db_connection.phtml): failed to open stream: No such file or directory
+File: /server/development/projects/kore9/sys/exec/101/installer.php
+Line: 21
+Variables: Array
+(
+    [stage] => db_connection
+    [ready] => 
+    [dataFolder] => /server/development/projects/kore9/data
+    [path] => /server/development/projects/kore9/data/base-install/db_connection.phtml
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:56 (EST)
+Error Number: 2
+Error Type: Warning
+Message: include(): Failed opening '/server/development/projects/kore9/data/base-install/db_connection.phtml' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File: /server/development/projects/kore9/sys/exec/101/installer.php
+Line: 21
+Variables: Array
+(
+    [stage] => db_connection
+    [ready] => 
+    [dataFolder] => /server/development/projects/kore9/data
+    [path] => /server/development/projects/kore9/data/base-install/db_connection.phtml
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:56 (EST)
+Error Number: 4096
+Error Type: Catchable Fatal Error
+Message: Argument 3 passed to throwError() must be of the type array, boolean given, called in /server/development/projects/kore9/sys/exec/101/installer.php on line 9 and defined
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 81
+Variables: Array
+(
+    [errorMessage] => Could not process installation or validate files
+    [errorCode] => 2048
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:37:56 (EST)
+Error Number: 2048
+Error Type: Runtime Notice
+Message: Could not process installation or validate files
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 82
+Variables: 1
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:38:04 (EST)
+Error Number: 4096
+Error Type: Catchable Fatal Error
+Message: Argument 3 passed to throwError() must be of the type array, boolean given, called in /server/development/projects/kore9/sys/exec/101/installer.php on line 9 and defined
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 81
+Variables: Array
+(
+    [errorMessage] => Could not process installation or validate files
+    [errorCode] => 2048
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:38:04 (EST)
+Error Number: 2048
+Error Type: Runtime Notice
+Message: Could not process installation or validate files
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 82
+Variables: 1
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:42:35 (EST)
+Error Number: 4096
+Error Type: Catchable Fatal Error
+Message: Argument 3 passed to throwError() must be of the type array, boolean given, called in /server/development/projects/kore9/sys/exec/101/installer.php on line 9 and defined
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 81
+Variables: Array
+(
+    [errorMessage] => Could not process installation or validate files
+    [errorCode] => 2048
+)
+
+Remote Address: 10.1.1.109
+
+Date/Time: 2014-02-02 01:42:35 (EST)
+Error Number: 2048
+Error Type: Runtime Notice
+Message: Could not process installation or validate files
+File: /server/development/projects/kore9/sys/exec/100/errorHandler.php
+Line: 82
+Variables: 1
+Remote Address: 10.1.1.109
+

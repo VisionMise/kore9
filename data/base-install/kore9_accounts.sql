@@ -1,3 +1,6 @@
+CREATE DATABASE kore9;
+USE kore9;
+
 CREATE TABLE `accounts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `token` varchar(45) NOT NULL,
