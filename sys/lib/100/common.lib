@@ -1,0 +1,26 @@
+<?php
+
+	class common {
+
+		public static function debug($input, $exit = false, $returnOnly = false, $volitile = false) {
+			global $mode;
+
+			if ($mode == 'shell') {
+				$output  = print_r($input, true)."\n";
+			} else {
+				$output  = '<pre>'.print_r($input, true).'</pre>';
+			}
+
+			if ($volitile) {
+				throwError($output, 64, true);
+			}
+
+			if (!$returnOnly) print $output;
+			if ($exit) exit();
+
+			return $output;
+		}
+
+	}
+
+?>

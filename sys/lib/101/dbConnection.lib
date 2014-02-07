@@ -1,0 +1,51 @@
+<?php
+
+	class dbConnection extends settings {
+
+		protected $database_settings	= array();
+		protected $connection;
+
+		public $connected;
+
+		function __construct() {
+			parent::__construct('settings');
+
+			$this->database_settings = $this->database;
+			$this->connect();
+		}
+
+		public function connection(&$connection = null) {
+			$connection = $this->connection;
+			return $this->connection;
+		}
+
+		private function connect() {
+			global $config;
+
+			$connectionType	= $this->database_settings['type'];
+			$connectNow		= "connect_$connectionType";		
+			$this->connected= $this->$connectNow();
+		}
+
+		private function connect_mysql() {
+			
+			$sqlConnection  	= new mysqli(
+	            $this->database_settings['host'],
+	            $this->database_settings['user'],
+	            $this->database_settings['password'],
+	            $this->database_settings['schema'],
+	            $this->database_settings['port']
+	        );
+
+	        $this->connection 	= $sqlConnection;
+	        if ($sqlConnection->connect_errno)	{
+	        	throwError("Cannot connect to database: ".$sqlConnection->error, 1, $this->database_settings);
+	        	return false;
+	        }
+
+        	return true;
+		}
+
+	}
+
+?>
