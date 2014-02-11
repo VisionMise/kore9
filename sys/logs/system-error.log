@@ -19518,3 +19518,3799 @@ Line: 82
 Variables: 1
 Remote Address: 10.1.1.109
 
+Date/Time: 2014-02-02 22:55:31 (EST)
+Error Number: 8
+Error Type: Notice
+Message: A session had already been started - ignoring session_start()
+File: /server/development/projects/kore9/sys/exec/400/sessionHandler.php
+Line: 17
+Variables: Array
+(
+    [userAccount] => 
+    [sessionType] => 
+    [sessionId] => 
+    [days] => 345600
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:15:27 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 66
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:15:27 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 67
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:15:27 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 68
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:15:27 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 69
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:15:27 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 70
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:19:48 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 71
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:19:48 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 72
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:19:48 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 73
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:19:48 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 74
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:19:48 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 75
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:21:34 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 71
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:21:34 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 72
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:21:34 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 73
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:21:34 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 74
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:21:34 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 75
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:22:25 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 71
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:22:25 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 72
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:22:25 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 73
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:22:25 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 74
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:22:25 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 75
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:01 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 72
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:01 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 73
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:01 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 74
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:01 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 75
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:01 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 76
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:24 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 72
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:24 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 73
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:24 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 74
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:24 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 75
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:23:24 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 76
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:24:07 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 72
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:24:07 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 73
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:24:07 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 74
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:24:07 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 75
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:24:07 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined property: installer::$dbConnStr
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 76
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:35:42 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Array to string conversion
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 106
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [requiredTables] => Array
+                        (
+                            [kore9_accounts] => Array
+                                (
+                                    [0] => accounts
+                                    [1] => groups
+                                )
+
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 2
+            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 40933630edef551dfaca71298a83fad8d03d62d4 $
+            [client_version] => 50011
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => Localhost via UNIX socket
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 5.5.35-0ubuntu0.13.10.2
+            [server_version] => 50535
+            [stat] => Uptime: 10465  Threads: 1  Questions: 142  Slow queries: 0  Opens: 179  Flush tables: 1  Open tables: 43  Queries per second avg: 0.013
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 68
+            [warning_count] => 0
+        )
+
+    [results] => mysqli_result Object
+        (
+            [current_field] => 0
+            [field_count] => 1
+            [lengths] => 
+            [num_rows] => 2
+            [type] => 0
+        )
+
+    [dbName] => kore9
+    [reqTables] => Array
+        (
+            [kore9_accounts] => Array
+                (
+                    [0] => accounts
+                    [1] => groups
+                )
+
+        )
+
+    [table] => Array
+        (
+            [0] => accounts
+            [1] => groups
+        )
+
+    [tables] => Array
+        (
+            [0] => accounts
+            [1] => groups
+        )
+
+    [script] => kore9_accounts
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:37:02 (EST)
+Error Number: 2
+Error Type: Warning
+Message: in_array() expects parameter 2 to be array, string given
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 106
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [requiredTables] => Array
+                        (
+                            [kore9_accounts] => Array
+                                (
+                                    [0] => accounts
+                                    [1] => groups
+                                )
+
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 2
+            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 40933630edef551dfaca71298a83fad8d03d62d4 $
+            [client_version] => 50011
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => Localhost via UNIX socket
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 5.5.35-0ubuntu0.13.10.2
+            [server_version] => 50535
+            [stat] => Uptime: 10545  Threads: 1  Questions: 145  Slow queries: 0  Opens: 179  Flush tables: 1  Open tables: 43  Queries per second avg: 0.013
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 70
+            [warning_count] => 0
+        )
+
+    [results] => mysqli_result Object
+        (
+            [current_field] => 0
+            [field_count] => 1
+            [lengths] => 
+            [num_rows] => 2
+            [type] => 0
+        )
+
+    [dbName] => kore9
+    [reqTables] => Array
+        (
+            [kore9_accounts] => Array
+                (
+                    [0] => accounts
+                    [1] => groups
+                )
+
+        )
+
+    [table] => 
+    [tables] => accounts
+    [script] => kore9_accounts
+    [tableSet] => Array
+        (
+            [0] => accounts
+            [1] => groups
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:37:02 (EST)
+Error Number: 2
+Error Type: Warning
+Message: in_array() expects parameter 2 to be array, string given
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 106
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [requiredTables] => Array
+                        (
+                            [kore9_accounts] => Array
+                                (
+                                    [0] => accounts
+                                    [1] => groups
+                                )
+
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 40933630edef551dfaca71298a83fad8d03d62d4 $
+            [client_version] => 50011
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => Localhost via UNIX socket
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 5.5.35-0ubuntu0.13.10.2
+            [server_version] => 50535
+            [stat] => Uptime: 10545  Threads: 1  Questions: 145  Slow queries: 0  Opens: 179  Flush tables: 1  Open tables: 43  Queries per second avg: 0.013
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 70
+            [warning_count] => 0
+        )
+
+    [results] => mysqli_result Object
+        (
+            [current_field] => 0
+            [field_count] => 1
+            [lengths] => 
+            [num_rows] => 2
+            [type] => 0
+        )
+
+    [dbName] => kore9
+    [reqTables] => Array
+        (
+            [kore9_accounts] => Array
+                (
+                    [0] => accounts
+                    [1] => groups
+                )
+
+        )
+
+    [table] => 
+    [tables] => groups
+    [script] => kore9_accounts
+    [tableSet] => Array
+        (
+            [0] => accounts
+            [1] => groups
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:37:55 (EST)
+Error Number: 2
+Error Type: Warning
+Message: in_array() expects parameter 2 to be array, string given
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 106
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [requiredTables] => Array
+                        (
+                            [kore9_accounts] => Array
+                                (
+                                    [0] => accounts
+                                    [1] => groups
+                                )
+
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => 2
+            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 40933630edef551dfaca71298a83fad8d03d62d4 $
+            [client_version] => 50011
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => Localhost via UNIX socket
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 5.5.35-0ubuntu0.13.10.2
+            [server_version] => 50535
+            [stat] => Uptime: 10598  Threads: 3  Questions: 180  Slow queries: 0  Opens: 179  Flush tables: 1  Open tables: 43  Queries per second avg: 0.016
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 75
+            [warning_count] => 0
+        )
+
+    [results] => mysqli_result Object
+        (
+            [current_field] => 0
+            [field_count] => 1
+            [lengths] => 
+            [num_rows] => 2
+            [type] => 0
+        )
+
+    [dbName] => kore9
+    [reqTables] => Array
+        (
+            [kore9_accounts] => Array
+                (
+                    [0] => accounts
+                    [1] => groups
+                )
+
+        )
+
+    [table] => 
+    [tables] => accounts
+    [script] => kore9_accounts
+    [tableSet] => Array
+        (
+            [0] => accounts
+            [1] => groups
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:37:55 (EST)
+Error Number: 2
+Error Type: Warning
+Message: in_array() expects parameter 2 to be array, string given
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 106
+Variables: Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => settings
+            [config:protected] => Array
+                (
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => localhost
+                            [port] => 3306
+                            [user] => root
+                            [password] => l1qu1dkuhl
+                            [schema] => kore9
+                        )
+
+                    [requiredTables] => Array
+                        (
+                            [kore9_accounts] => Array
+                                (
+                                    [0] => accounts
+                                    [1] => groups
+                                )
+
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => js
+                                )
+
+                            [css] => Array
+                                (
+                                    [09] => normalize.css
+                                    [10] => bootstrap.min.css
+                                    [11] => bootstrap-theme.min.css
+                                    [99] => kore9.css
+                                )
+
+                            [js] => Array
+                                (
+                                    [10] => //ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+                                    [20] => bootstrap.min.js
+                                    [90] => rame.js
+                                    [91] => kore9.ui.js
+                                    [92] => kore9.init.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [dbConnStr] => Array
+        (
+            [type] => mysql
+            [host] => localhost
+            [port] => 3306
+            [user] => root
+            [password] => l1qu1dkuhl
+            [schema] => kore9
+        )
+
+    [sqlConnection] => mysqli Object
+        (
+            [affected_rows] => -1
+            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 40933630edef551dfaca71298a83fad8d03d62d4 $
+            [client_version] => 50011
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => Localhost via UNIX socket
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 5.5.35-0ubuntu0.13.10.2
+            [server_version] => 50535
+            [stat] => Uptime: 10598  Threads: 3  Questions: 180  Slow queries: 0  Opens: 179  Flush tables: 1  Open tables: 43  Queries per second avg: 0.016
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 75
+            [warning_count] => 0
+        )
+
+    [results] => mysqli_result Object
+        (
+            [current_field] => 0
+            [field_count] => 1
+            [lengths] => 
+            [num_rows] => 2
+            [type] => 0
+        )
+
+    [dbName] => kore9
+    [reqTables] => Array
+        (
+            [kore9_accounts] => Array
+                (
+                    [0] => accounts
+                    [1] => groups
+                )
+
+        )
+
+    [table] => 
+    [tables] => groups
+    [script] => kore9_accounts
+    [tableSet] => Array
+        (
+            [0] => accounts
+            [1] => groups
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-02 23:49:22 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined variable: preq
+File: /server/development/projects/kore9/sys/exec/102/installer.php
+Line: 131
+Variables: Array
+(
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-03 02:26:08 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined variable: mode
+File: /server/development/projects/kore9/sys/exec/200/daemon.php
+Line: 3
+Variables: Array
+(
+    [execFolder] => /server/development/projects/kore9/sys/exec/200
+    [items] => Array
+        (
+            [0] => .
+            [1] => ..
+            [2] => daemon.php
+        )
+
+    [exec] => Array
+        (
+        )
+
+    [item] => daemon.php
+    [path] => /server/development/projects/kore9/sys/exec/200/daemon.php
+    [parts] => Array
+        (
+            [0] => daemon
+            [1] => php
+        )
+
+    [ext] => php
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-03 02:48:08 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined variable: deamon
+File: /server/development/projects/kore9/sys/exec/200/daemon.php
+Line: 16
+Variables: Array
+(
+    [daemon] => daemon Object
+        (
+            [staticTasks:daemon:private] => 
+            [running:daemon:private] => 
+            [sleepTime:daemon:private] => 5000000
+            [protectedMin:daemon:private] => 100000
+            [protectedMax:daemon:private] => 900000000
+            [defaultTime:daemon:private] => 300000000
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-04 00:04:58 (EST)
+Error Number: 2
+Error Type: Warning
+Message: session_start(): Cannot send session cookie - headers already sent by (output started at /server/development/projects/kore9/sys/lib/100/common.lib:25)
+File: /server/development/projects/kore9/sys/exec/400/sessionHandler.php
+Line: 16
+Variables: Array
+(
+    [userAccount] => 
+    [sessionType] => 
+    [sessionId] => 
+    [days] => 345600
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-04 00:04:58 (EST)
+Error Number: 2
+Error Type: Warning
+Message: session_start(): Cannot send session cache limiter - headers already sent (output started at /server/development/projects/kore9/sys/lib/100/common.lib:25)
+File: /server/development/projects/kore9/sys/exec/400/sessionHandler.php
+Line: 16
+Variables: Array
+(
+    [userAccount] => 
+    [sessionType] => 
+    [sessionId] => 
+    [days] => 345600
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-04 00:18:51 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined index: admin
+File: /server/development/projects/kore9/sys/api/authority/authority.php
+Line: 64
+Variables: Array
+(
+    [param] => Array
+        (
+            [api] => authority
+            [call] => post
+            [email] => geoffrey.kuhl@gmail.com
+            [password] => l1qu1dkuhl
+        )
+
+    [email] => geoffrey.kuhl@gmail.com
+    [password] => l1qu1dkuhl
+    [token] => 24d2d2ce10e7a43b438acfc3e45e6793
+    [table] => table Object
+        (
+            [tableName:protected] => 
+            [engine:protected] => mysqli Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 40933630edef551dfaca71298a83fad8d03d62d4 $
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 0
+                    [host_info] => Localhost via UNIX socket
+                    [info] => Rows matched: 1  Changed: 1  Warnings: 0
+                    [insert_id] => 0
+                    [server_info] => 5.5.35-0ubuntu0.13.10.2
+                    [server_version] => 50535
+                    [stat] => Uptime: 5742  Threads: 1  Questions: 250  Slow queries: 0  Opens: 179  Flush tables: 1  Open tables: 43  Queries per second avg: 0.043
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 120
+                    [warning_count] => 0
+                )
+
+            [sqlLog:protected] => Array
+                (
+                    [0] => SELECT * FROM accounts WHERE token = '24d2d2ce10e7a43b438acfc3e45e6793';
+                    [1] => SELECT * FROM groups WHERE id = 1;
+                )
+
+        )
+
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [token] => 24d2d2ce10e7a43b438acfc3e45e6793
+                    [email] => geoffrey.kuhl@gmail.com
+                    [group] => 1
+                    [username] => VisionMise
+                    [created] => 2014-01-31 00:00:00
+                    [last_login] => 2014-02-04 00:18:24
+                    [logins] => 76
+                    [last_ip] => localhost
+                )
+
+        )
+
+    [user] => Array
+        (
+            [id] => 1
+            [token] => 24d2d2ce10e7a43b438acfc3e45e6793
+            [email] => geoffrey.kuhl@gmail.com
+            [group] => Admin
+            [username] => VisionMise
+            [created] => 2014-01-31 00:00:00
+            [last_login] => 2014-02-04 00:18:24
+            [logins] => 76
+            [last_ip] => localhost
+            [group_id] => 1
+        )
+
+    [gid] => 1
+    [grp] => Array
+        (
+            [id] => 1
+            [name] => Admin
+            [admin] => 1
+        )
+
+)
+
+Remote Address: Hosted
+
+Date/Time: 2014-02-04 22:43:35 (EST)
+Error Number: 8
+Error Type: Notice
+Message: Undefined variable: ver
+File: /server/development/projects/kore9/sys/lib/300/daemon.lib
+Line: 114
+Variables: Array
+(
+    [cmd] => about
+)
+
+Remote Address: Hosted
+

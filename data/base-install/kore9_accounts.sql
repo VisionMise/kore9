@@ -10,12 +10,14 @@ CREATE TABLE `accounts` (
   `created` datetime DEFAULT NULL,
   `last_login` datetime DEFAULT NULL,
   `logins` int(11) DEFAULT NULL,
+  `last_ip` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`id`,`token`,`email`,`group`),
   UNIQUE KEY `id_UNIQUE` (`id`),
   UNIQUE KEY `email_UNIQUE` (`email`),
   UNIQUE KEY `token_UNIQUE` (`token`),
   KEY `token` (`token`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
 
 CREATE TABLE `groups` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

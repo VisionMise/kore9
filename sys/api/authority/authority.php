@@ -58,7 +58,9 @@
 	    			? $_SERVER['HTTP_REFERER']
 	    			: "./"
 	    		),
-	    		$token
+	    		'session'	=> $token,
+	    		'signed_in'	=> ($_SESSION['type'] != 'guest'),
+	    		'username'	=> $user['username']
     		);	
 		}
 
@@ -85,15 +87,15 @@
 		}
 
 		private function createAuthenticatedSession(array $user) {
+			global $mode;
+
 	    	$table 		= new table();
 	    	$dt 		= date("Y-m-d H:i:s");
 	    	$logins		= (isset($user['logins'])) ?  ((int) $user['logins']) + 1 : 1;
 	    	$token 		= $user['token'];
+	    	$lastIp		= ($mode == 'shell') ? 'localhost' : $_SERVER['REMOTE_ADDR'];
 
-		    $table->query("UPDATE accounts SET last_login = '$dt', logins = $logins WHERE token = '$token';", true);
-
-	    	//print_r(array($_SESSION, $user, $table));
-	    	//exit();
+		    $table->query("UPDATE accounts SET last_login = '$dt', logins = $logins, last_ip = '$lastIp' WHERE token = '$token';", true);
 		}
 
 		private function tokenHash($email, $password) {

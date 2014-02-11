@@ -1,7 +1,7 @@
 <?php global $userAccount; ?>
 <div class="space"></div>
 <div class="container">
-    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="title lg text-muted">
@@ -19,37 +19,49 @@
                         <h2>
                             Welcome <?=trim($userAccount['username']);?>
 
-                            <span class="pull-right">
+                            <!--small class="sm text-muted hidden-xs hidden-sm">
+                                Member since <?=date('M jS Y', strtotime($userAccount['created'])); ?>
+                                -
+                                <?=$userAccount['group'];?> Group
+                            </small-->
+                            <span class="pull-right hidden-xs hidden-sm">
                                 <div>
-                                    <div style="height:20px;"></div>
+                                    <div style="height:5px;"></div>
                                     <small class="sm r text-muted pull-right">
                                         <?=$userAccount['email'];?>
                                         <br/>
                                         <span class="glyphicon glyphicon-lock"></span>
                                         <?=trim($userAccount['token']);?>
+                                        <br/>
+                                        Signed in
+                                        <?=date("D M jS \a\\t g:i A T", strtotime($userAccount['last_login']));?>
+                                        from
+                                        <?=$userAccount['last_ip'];?>
                                     </small>
                                 </div>
                             </span>
                             
-                            <small class="sm text-muted pull-left">
-                                Member since <?=date('M jS Y', strtotime($userAccount['created'])); ?>
-                                -
-                                <?=$userAccount['group'];?> Group
-                            </small>
                         </h2>
-                            
                         <hr/>
-                        <p>
-                            <span class="glyphicon glyphicon-cog"></span>
-                            <a href="javascript:void(0);">
-                                Control
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <span class="glyphicon glyphicon-tasks"></span>
-                            <a href="javascript:void(0);">
-                                Services
-                            </a>
-                        </p>            
+
+                        <div style="min-height:400px;">
+                            <p id="pg" style="min-height:325px;"></p>            
+                            <br/>
+
+                            <div class="buttons row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <a title="<?=$userAccount['username'];?>" class="btn lg c  btn-inverse" href="javascript:void(0);" id="char"><span class="glyphicon glyphicon-stats"></span></a>
+                                    <a title="Inventory" class="btn lg c  btn-default" href="javascript:void(0);" id="inventory"><span class="glyphicon glyphicon-th"></span></a>
+                                    <a title="Skills" class="btn lg c  btn-default" href="javascript:void(0);" id="skills"><span class="glyphicon glyphicon-indent-left"></span></a>
+                                    <a title="Map" class="btn lg c  btn-default" href="javascript:void(0);" id="map"><span class="glyphicon glyphicon-globe"></span></a>
+                                    <a title="Achievements" class="btn lg c  btn-default" href="javascript:void(0);" id="achievements"><span class="glyphicon glyphicon-list-alt"></span></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 r">
+                                    <a title="Attack" class="btn lg c btn-default" href="javascript:void(0);" id=""><span class="glyphicon glyphicon-asterisk"></span></a>
+                                    <a title="Use" class="btn lg c btn-default" href="javascript:void(0);" id=""><span class="glyphicon glyphicon-ok-circle"></span></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>        
                 </div>
             </div>
@@ -67,3 +79,46 @@
         </a>
     </div>
 </div>
+<script>
+
+    $('#char').click(function() {
+        $('.buttons a').not($(this)).addClass('btn-default').removeClass('btn-inverse');
+        $(this).addClass('btn-inverse').removeClass('btn-default');
+        server.api("api/character", $("#pg"));
+    });
+
+    $('#profile').click(function() {
+        $('.buttons a').not($(this)).addClass('btn-default').removeClass('btn-inverse');
+        $(this).addClass('btn-inverse').removeClass('btn-default');
+        server.api("api/user/profile", $("#pg"));
+    });
+
+    $('#map').click(function() {
+        $('.buttons a').not($(this)).addClass('btn-default').removeClass('btn-inverse');
+        $(this).addClass('btn-inverse').removeClass('btn-default');
+        server.api("api/world/map", $("#pg"));
+    });
+
+    $('#inventory').click(function() {
+        $('.buttons a').not($(this)).addClass('btn-default').removeClass('btn-inverse');
+        $(this).addClass('btn-inverse').removeClass('btn-default');
+        server.api("api/character/inventory", $("#pg"));
+    });
+
+    $('#skills').click(function() {
+        $('.buttons a').not($(this)).addClass('btn-default').removeClass('btn-inverse');
+        $(this).addClass('btn-inverse').removeClass('btn-default');
+        server.api("api/character/skills", $("#pg"));
+    });
+
+    $('#achievements').click(function() {
+        $('.buttons a').not($(this)).addClass('btn-default').removeClass('btn-inverse');
+        $(this).addClass('btn-inverse').removeClass('btn-default');
+        server.api("api/character/achievements", $("#pg"));
+    });
+
+
+    /** Starting Page **/
+    server.api("api/character", $("#pg"));
+
+</script>

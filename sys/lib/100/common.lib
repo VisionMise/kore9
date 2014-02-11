@@ -21,6 +21,11 @@
 			return $output;
 		}
 
+		public static function printMsg($msg, $ommitNewline = false, $force = false) {
+			global $mode;
+			if ($mode == 'shell' or $force) print print_r($msg, true) . ((!$ommitNewline) ? "\n" : null);
+		}
+
 	}
 
 ?>

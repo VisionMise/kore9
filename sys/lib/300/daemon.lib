@@ -1,0 +1,205 @@
+<?php
+
+	class daemon {
+
+		private $staticTasks 	= array();
+		private $running 		= false;
+		private $sleepTime		= 0;
+		private $queue			= array();
+		private $shuttingDown	= false;
+
+		private $protectedMin	= 10000; 		//	1/100 Seconds
+		private $protectedMax	= 900000000;	//	15 Minutes
+		private $defaultTime	= 300000000;	//	5 Minutes
+
+		function __construct() {
+			$catalog 			= new settings("settings");
+			$this->staticTasks	= $catalog->tasks;
+			$this->sleepTime 	= $catalog->daemon['sleep'];
+
+			if (!$this->sleepTime) $this->sleepTime = $this->defaultTime;
+			if ($this->sleepTime < $this->protectedMin) $this->sleepTime = $this->protectedMin;
+			if ($this->sleepTime > $this->protectedMax) $this->sleepTime = $this->protectedMax;
+		}
+
+		private function send($msg, $onl = false) {common::printMsg($msg, $onl);}
+
+		private function prompt() {
+			if ($this->shuttingDown) return null;
+			$this->send("kore9 # ", true);
+		}
+
+		public function start() {
+			$this->running 		= true;
+			$this->main();
+		}
+
+		public function shutdown() {
+			$this->shuttingDown	= true;
+			$this->send("[Server] Shutting Down");
+			$this->running		= false;
+		}
+
+		private function main() {
+
+			/** Kore9 Server header **/
+			$header 	= 
+				"\n\t - Kore9 Server v".getVersion()." -\n".
+				"\n"
+			;
+			common::printMsg($header);
+			$this->prompt();
+
+			/** Open Standard Input Stream **/
+			$stdIn = fopen('php://stdin', 'r');
+			stream_set_blocking($stdIn, false);
+
+			while ($this->running) {
+				//$secs = ($this->sleepTime / 1000000);
+				$this->processQueue();
+
+				while ($line = fgets($stdIn)) {
+					$str  	= trim($line);
+					if (empty($str) or empty($line)) break;
+
+					$this->queue[] = $str;
+					//$this->prompt();
+				}
+
+				usleep($this->sleepTime);
+			}
+
+			fclose($stdIn);
+		}
+
+		private function processQueue() {
+
+			$size 	= count($this->queue);
+			if (!$size) return false;
+
+			if ($size > 1) $this->send("[Server] Processing Queue [$size]");
+			foreach ($this->queue as $index => $stdInput) {
+				$cmd 	= str_replace(array("\n", "\r", "\t"), array(null, null, null), $stdInput);
+				$this->processCommand($cmd);
+				unset($this->queue[$index]);
+			}
+
+			$this->prompt();
+		}
+
+		private function processCommand($cmd) {
+			$param 		= explode(" ", $cmd);
+
+			switch (strtolower($param[0])) {
+
+				case 'quit':
+				case 'exit':
+					$this->shutdown();
+				break;
+
+				case 'install':
+					$this->send(($this->startShellInstall())
+						? '[Server] Installation completed'
+						: '[Server] Installation was not completed'
+					);
+				break;
+
+				case 'version':
+					$this->send("Kore9 v".getVersion());
+				break;
+
+				case 'author':
+					$this->send('VisionMise');
+				break;
+
+				case 'about':
+					$ver 	= getVersion();
+					$this->send(
+						"\n\t Kore9   v$ver".
+						"\n\t By: VisionMise".
+						"\n\t All Rights Reserved".
+						"\n\t 2014\n"
+					);
+				break;
+
+				default:
+
+					$args 	= $param;
+					$parts	= (isset($args[0])) ? explode('.', $args[0]) : array();
+
+					if (!$parts) {
+						$this->send("[Server] Invalid Input");
+						return false;
+					}
+
+					$obj	= (isset($parts[0])) ? $parts[0] : null;
+					$method	= (isset($parts[1])) ? $parts[1] : null;
+					if (isset($args[0])) unset($args[0]);
+					$args 	= array_values($args);
+
+					if (!$obj or !$method) {
+						$this->send("[Server] Invalid Input");
+						return false;	
+					}
+
+					$argStr 	= null;
+					$lastIndex 	= count($args) -1;
+					foreach ($args as $index => $a) {
+
+						$a 		= str_replace(
+							array('"', "'", "+", "_"), 
+							array(null, null, " ", " "), 
+							trim($a)
+						);
+
+						if (strtolower($a) == 'true') {
+							$args[$index] = true;
+							$argStr .= "True";
+						} elseif (strtolower($a) == 'yes') {
+							$args[$index] = true;
+							$argStr .= "True";
+						} elseif (strtolower($a) == 'false') {
+							$args[$index] = false;
+							$argStr .= "False";
+						} elseif (strtolower($a) == 'no')	{
+							$args[$index] = false;
+							$argStr .= "False";
+						} elseif (is_numeric($a)) {
+							$argStr .= "$a";
+						} else {
+							$argStr .= "'$a'";
+						}
+
+						if ($index != $lastIndex) $argStr .= ", ";
+					}
+
+					$this->send("[API] $obj->$method($argStr);\n[Server] Not Implemented");
+				break;
+
+			}
+
+		}
+
+		private function startShellInstall() {
+			global $installer;
+			$this->send("[Server] Not Implemented");
+
+			if (!$installer) {
+				$this->send("[Installer] Installer not present or missing");
+				return false;
+			}
+
+			if ($installer->installed) {
+				$this->send("[Installer] Already Installed");
+				return false;
+			}
+
+			$this->send("[Installer] Install started on ".date("D M js Y \a\\t g:i A T"));
+
+
+			return true;
+		}
+
+	}
+
+?>
