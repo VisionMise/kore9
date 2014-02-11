@@ -1,3 +1,9 @@
+<?php
+
+	$sVars	= $_POST;
+	if (isset($sVars['password'])) $sVars['password'] = '*****';
+
+?>
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
@@ -8,6 +14,7 @@
 		<meta name="author" content="%name% - %author%">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
+		<script>var serverVars	= <?=json_encode($sVars);?>;</script>
 		%header%
 	</head>
 	<body>

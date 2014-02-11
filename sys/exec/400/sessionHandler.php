@@ -3,11 +3,9 @@
 	global $userAccount;
 	global $sessionType;
 	global $seesionId;
+	global $mode;
 
-	setSession($userAccount, $sessionType, $sessionId);
-
-	//print_r($_SESSION);
-
+	if ($mode != 'shell') setSession($userAccount, $sessionType, $sessionId);
 
 	function setSession(&$userAccount = array(), &$sessionType = null, &$sessionId = 0) {
 

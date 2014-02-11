@@ -32,7 +32,7 @@
 
 		public function get(	array $param = array()	) {
 			global $mode;
-
+/*
 			if ($mode == 'shell') {
 				$strBuffer	= "Invalid Input\n";
 				foreach ($param as $key => $value) {
@@ -41,7 +41,7 @@
 				
 				return "$strBuffer\n";
 			}
-
+*/
 			return null;
 		}
 

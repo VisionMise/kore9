@@ -1,12 +1,12 @@
 <?php
 
-    global $version;
+    global $release;
 
 	$request 	= array();
 	$mode		= initRequest($request);
 	$ready 		= boot($mode, $request);
-	$release	= false;
-	$version    = getVersion($release);
+	$release	= 0;
+	//$version    = getVersion($release);
 
 	function initRequest(array &$request = array()) {
 		$requestURL		= null;
@@ -51,9 +51,10 @@
 		return $requestType;
 	}
 	
-	function getVersion($release = 0) {
-	    $value  = null;
-	    $lines  = explode("\n", `svn info`);
+	function getVersion() {
+		global $release;
+	    $value  	= null;
+	    $lines  	= explode("\n", `svn info`);
 	    
 	    foreach ($lines as $line) {
 	        $parts  = explode(":", $line, 2);

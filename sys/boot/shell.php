@@ -18,11 +18,10 @@
 
 	/**
 	 * Shell headers
-	 */
+	 *
 	$release	= 0;
 	$version    = getVersion($release);
-	print "\nKore9\nVersion $version\n\n";
-
+	 */
 
 
 	/**
